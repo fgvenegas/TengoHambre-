@@ -1,2 +1,2 @@
 # TengoHambre-
-Pagina Web para vender comida en lugares publicos
+Pagina Web para facilitar la venta de comida en lugares publicos
