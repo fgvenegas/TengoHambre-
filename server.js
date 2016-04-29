@@ -8,11 +8,12 @@ var bodyParser      = require('body-parser');
 var methodOverride  = require('method-override');
 var app             = express();
 
+uri  = 'mongodb://fgvenegas:lppcd511@ds032319.mlab.com:32319/meanmapapp'
 // Express Configuration
 // -----------------------------------------------------
 // Sets the connection to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/MeanMapApp");
-
+db = mongoose.connect(uri);
+db = mongoose.createConnection(uri);
 // Logging and Parsing
 app.use(express.static(__dirname + '/public'));                 // sets the static files location to public
 app.use('/bower_components',  express.static(__dirname + '/bower_components')); // Use BowerComponents
