@@ -8,7 +8,7 @@ var bodyParser      = require('body-parser');
 var methodOverride  = require('method-override');
 var app             = express();
 
-uri  = 'mongodb://fgvenegas:lppcd511@ds032319.mlab.com:32319/meanmapapp'
+uri  = 'mongodb://fgvenegas:lppcd511@ds011735.mlab.com:11735/meanmapapp'
 // Express Configuration
 // -----------------------------------------------------
 // Sets the connection to MongoDB
